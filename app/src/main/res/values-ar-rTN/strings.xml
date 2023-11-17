@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">workshop2</string>
+    <string name="broker_address_hint">عنوان الوسيط</string>
+    <string name="gas_topic_hint">موضوع الغاز</string>
+    <string name="threshold_hint">العتبة</string>
+    <string name="start_button_text">ابدأ</string>
+    <string name="gas_value_text">قيمة الغاز:</string>
+    <string name="welcome_text">مرحبا بكم في WorkShop2 مراقبة الغاز</string>
+    <string name="lang_text">تغيير اللغة</string>
+    <string name="broker_port_hint">Broker Port</string>
+    <string name="content_text">قيمة الغاز تتجاوز العتبة:</string>
+    <string name="alert">إنذار الغاز!</string>
+    <string name="title_alert">معلومات غير كاملة</string>
+    <string name="msg_alert">يرجى إدخال جميع المعلومات المطلوبة.</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">workshop2</string>
+    <string name="broker_address_hint">Adresse du Broker</string>
+    <string name="broker_port_hint">Broker Port</string>
+    <string name="gas_topic_hint">Sujet sur le gaz</string>
+    <string name="threshold_hint">Seuil</string>
+    <string name="start_button_text">Démarrer</string>
+    <string name="gas_value_text">"Valeur du gaz : "</string>
+    <string name="welcome_text">Bienvenue dans WorkShop2 \t Surveillance du gaz</string>
+    <string name="lang_text">Changer la langue</string>
+    <string name="alert">Alerte au gaz!</string>
+    <string name="content_text">"La valeur du gaz dépasse le seuil : "</string>
+    <string name="title_alert">informations incomplètes</string>
+    <string name="msg_alert">Veuillez entrer toutes les informations requises.</string>
+</resources>

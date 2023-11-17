@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="@string/welcome_text"
+        android:textSize="20dp"
+       android:textAlignment="center"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/brokerAddressEditText"
+        android:layout_width="369dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/welcome"
+        android:background="@drawable/edit_text_background"
+        android:hint="@string/broker_address_hint"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/brokerPortEditText"
+        android:layout_width="369dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/brokerAddressEditText"
+        android:layout_marginTop="8dp"
+        android:hint="@string/broker_port_hint"
+        android:inputType="number"
+        android:background="@drawable/edit_text_background" />
+
+    <EditText
+        android:id="@+id/gasTopicEditText"
+        android:layout_width="369dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/brokerPortEditText"
+        android:layout_marginTop="8dp"
+        android:hint="@string/gas_topic_hint"
+        android:inputType="text"
+        android:background="@drawable/edit_text_background" />
+
+    <EditText
+        android:id="@+id/thresholdEditText"
+        android:layout_width="369dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/gasTopicEditText"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/edit_text_background"
+        android:hint="@string/threshold_hint"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/thresholdEditText"
+        android:layout_marginTop="16dp"
+        android:text="@string/start_button_text"
+        android:background="@drawable/button_background"
+        android:textColor="@android:color/white"
+        android:onClick="startButtonClick" />
+
+    <TextView
+        android:id="@+id/gasValueTextView"
+        android:layout_width="221dp"
+        android:layout_height="111dp"
+        android:layout_below="@id/startButton"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="91dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="83dp"
+        android:text="@string/gas_value_text"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="39dp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/changeMyLang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gasValueTextView"
+        android:layout_marginTop="16dp"
+        android:text="@string/lang_text"
+        android:background="@drawable/button_background"
+        android:textColor="@android:color/white"
+        android:onClick="startButtonClick" />
+
+</RelativeLayout>

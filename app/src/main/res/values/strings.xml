@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">workshop2</string>
+        <string name="broker_address_hint">Broker Address</string>
+        <string name="broker_port_hint">Broker Port</string>
+        <string name="gas_topic_hint">Gas Topic</string>
+        <string name="threshold_hint">Threshold</string>
+        <string name="start_button_text">Start</string>
+        <string name="gas_value_text">Gas Value: </string>
+    <string name="welcome_text">Welcome To WorkShop2\n\t Gas Monitoring</string>
+    <string name="lang_text">Change Language</string>
+    <string name="alert">Gas Alert!</string>
+    <string name="content_text">Gas value exceeds threshold: </string>
+    <string name="title_alert">Incomplete Information</string>
+    <string name="msg_alert">Please enter all required information.</string>
+</resources>
